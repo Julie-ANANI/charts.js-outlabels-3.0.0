@@ -1,0 +1,17 @@
+{
+  "name": "parcel-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "chart.js": "2.7.2",
+    "chartjs-plugin-piechart-outlabels": "0.1.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  }
+}
